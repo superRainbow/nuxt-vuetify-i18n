@@ -13,11 +13,11 @@
     "lint": "npm run lint:ts && npm run lint:prettier",
     "lint:fix": "prettier --write --list-different . && npm run lint:ts --fix",
     "prettier": "prettier --write",
-    "commit": "git-cz"
+    "commit": "cz"
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-customizable"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "lint-staged": {
