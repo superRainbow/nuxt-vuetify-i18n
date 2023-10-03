@@ -2,6 +2,7 @@ export default {
   $vuetify: {
     open: '開啟',
     close: '關閉',
+    loading: '載入中...',
   },
   html: {
     title: '經濟部投資審議司',

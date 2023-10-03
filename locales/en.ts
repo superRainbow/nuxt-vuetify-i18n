@@ -2,6 +2,7 @@ export default {
   $vuetify: {
     open: 'open',
     close: 'close',
+    loading: 'loading...',
   },
   html: {
     title: 'Department of Investment Review, MOEA',
